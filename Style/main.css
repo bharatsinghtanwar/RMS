@@ -4,10 +4,10 @@
     background-clip: border-box;
 }
 .form{
-    display: block;
+    /* display: block; */
     width: 311px;
     height: 433px;
-    margin: 10% 10% 10% 70%;
+    /* margin: 10% 10% 10% 70%; */
     padding: 10px, 40px, 100px;
     grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr 1fr;
@@ -113,10 +113,10 @@
 
 
 .sub{
-
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    background-color: transparent;
     margin-top: 10%;
-
+    padding-bottom: 280px;
+    
 }
-
