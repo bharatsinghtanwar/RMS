@@ -4,7 +4,17 @@ body{
 
 }
 
+.main-block{
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+.main-block-without-nav{
+  padding-left: 250px;
+  width: 100%;
+}
 .header-1{
+    /* margin: auto; */
     background-color: #fff;
     display: flex;
     text-align: center;
@@ -97,16 +107,16 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.div-table-2{
+/* .div-table-2{
   padding-top: 100px;
   border-radius: 15px;
   display: flex;
   
 
-}
+} */
 
 
-.table-2{
+/* .table-2{
   border-collapse: inherit;
   box-shadow: 0px 5px 6px 0px rgb(92, 92, 92);
   border-radius: 15px;
@@ -139,4 +149,63 @@ tr:nth-child(even) {
   padding: 4px;
   border-radius: 15px;
   
+} */
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00384A;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 15px 6px 15px 6px;
+  text-decoration: none;
+  font-size: 22x;
+  font-weight: bold;
+  color: #4d4d4d;
+  display: block;
+  background-color: white;
+  margin: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.sidenav i{
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  margin: 10px;
+  margin-top: 45px;
+  border-radius: 5px;
+  text-align: center;
+}
+.sidenav h4{
+  padding: 6px 6px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  margin: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.elements{
+  padding-top: 50%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
